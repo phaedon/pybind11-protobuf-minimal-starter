@@ -1,4 +1,5 @@
 .cache/
+build/
 bazel-*
 *.bazel.lock
 compile_commands.json
