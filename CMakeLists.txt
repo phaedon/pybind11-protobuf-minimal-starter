@@ -1,6 +1,9 @@
 cmake_minimum_required(VERSION 3.12)
 project(Pybind11ProtobufMinimalStarter)
 
+set(BUILD_TESTING OFF)
+set(FETCHCONTENT_QUIET OFF)
+
 find_package(Protobuf REQUIRED)
 include_directories(${Protobuf_INCLUDE_DIRS})
 include_directories(${CMAKE_CURRENT_BINARY_DIR})
